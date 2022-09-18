@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+/*
+                                 .;o,
+        __."iIoi,._              ;pI __-"-xx.,_
+      `.3"P3PPPoie-,.            .d' `;.     `p;
+     `O"dP"````""`PdEe._       .;'   .     `  `|   2022 Copyright: Anim4Mus1c && CursoemVídeo - anim4.mus1c8@gmail.com
+    "$#"'            ``"P4rdddsP'  .F.    ` `` ;  /
+   i/"""     *"Sp.               .dPff.  _.,;Gw'
+   ;l"'     "  `dp..            "sWf;fe|'
+  `l;          .rPi .    . "" "dW;;doe;
+   $          .;PE`'       " "sW;.d.d;
+   $$        .$"`     `"saed;lW;.d.d.i
+   .$M       ;              ``  ' ld;.p.
+__ _`$o,.-__  "ei-Mu~,.__ ___ `_-dee3'o-ii~m. ____
+*/
+    </style>
+</head>
+</head>
+<body>
+    
+    <header>
+        <h1 id="styleh1-1">Tabuada</h1>
+    </header>
+    <section id="sec2">
+        <div>
+            <p id="pstyle1">Número: <input type="number" name="num" id="txtn">
+            <input type="button" value="Gerar Tabuada" id="gtab" onclick="tabuada()"></p>
+        </div>
+        <div class="div-select">
+            <select name="tabuada" id="seltab" size='10'>
+
+            </select>
+        </div>
+    </section>
+    <header>
+        <h1 id="styleh1-2">Somando Valores</h1>
+    </header>
+    <div>
+        <section id="sec2">
+            <input type="number" name="txtn1" id="txtn1"> +
+            <input type="number" name="txtn2" id="txtn2">
+            <input type="button" value="Somar" onclick="somar()" id="inb1">
+            <div id="res">Resultado:</div><br><br>
+    
+            <input type="number" name="txtn3" id="txtn3"> ×
+            <input type="number" name="txtn4" id="txtn4">
+            <input type="button" value="Vezes" onclick="Vezes()" id="inb2">
+            <div id="res2">Resultado:</div><br><br>
+    
+            <input type="number" name="txtn5" id="txtn5"> ÷
+            <input type="number" name="txtn6" id="txtn6"> 
+            <input type="button" value="Dividir" onclick="Dividir()" id="inb3">
+            <div id="res3">Resultado:</div><br><br>
+        </section>
+    </div>
+    <header>
+        <h1 id="h1-3">Analizador de Números</h1>
+    </header>
+    <div>
+    <section id="sec2">
+        <div id="txtna">
+            Número (entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" id="addbtn" value="Adicionar" onclick="add()">
+            <div class="div-select1">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            </div>
+            <br><input type="button" id="endbtn" value="Finalizar" onclick="end()">
+        </div>
+        <div id="res4">
+        
+        </div>
+    </section>
+    </div>
+    <footer>
+        <p id="pcopy">&copy; 2022 Copyright: Anim4Mus1c & CursoemVídeo - anim4.mus1c8@gmail.com</p>
+    </footer>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

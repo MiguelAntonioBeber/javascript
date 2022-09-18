@@ -1,0 +1,53 @@
+body {
+background-color: rgb(6, 190, 225);
+font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.div-select {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px rgba(73, 72, 72, 0.219);
+}
+
+.div-select select {
+    background-color: rgba(23, 104, 172);
+    background-position: 205px center;
+    width: 267px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte do Select */
+    font-size: 18px;
+    /* Tamanho da Fonte */
+    padding: 13px 20px 13px 12px;
+    color: #fff;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+.div-select select::-ms-expand {
+    display: none;
+}
+
+#pstyle1 {
+    font: normal 15pt Arial;
+}

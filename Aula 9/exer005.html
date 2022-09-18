@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anônimo</title>
+    <style>
+        body {
+            background-color: rgb(26, 142, 243);
+            color: rgb(255, 255, 255);
+            font: normal 15 apt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>INICIANDO OS ESTUDOS <strong>DOM</strong></h1> 
+    <p>Aqui vai os resultados.</p>
+    <p id="vpn">Eu estou estudando <strong>DOM</strong> com JavaScript</p>
+    <div id="msg">Log-ins e contas...</div>
+    <script>
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        /*
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        // d.innerText = 'Estou Aguardando...'
+        */
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+
+    </script>
+</body>
+</html>
